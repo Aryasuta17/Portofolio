@@ -10,21 +10,19 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
-            {/* Large Professional Photo Placeholder */}
             <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 mx-auto mb-8 rounded-full bg-white/10 backdrop-blur-sm border-4 border-white/20 overflow-hidden group hover:scale-105 transition-transform duration-300">
               <img
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Professional headshot"
+                src="public\Foto.png"
+                alt="Profil saya"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
             </div>
           </div>
-          
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in">
             Putu Aryasuta Tirta
           </h1>
           <p className="text-xl sm:text-2xl text-blue-100 mb-4 animate-fade-in-delay-1">
-            Data Scientist & Analytics Professional
+            Data Scientist & Analytics
           </p>
           <p className="text-lg text-blue-200 mb-8 max-w-3xl mx-auto animate-fade-in-delay-2">
             Passionate about transforming data into actionable insights and building innovative solutions 
